@@ -50,6 +50,7 @@ source_files = \
     couch_httpd_show.erl \
     couch_httpd_view.erl \
     couch_httpd_misc_handlers.erl \
+	couch_httpd_multiview.erl \
     couch_httpd_proxy.erl \
     couch_httpd_rewrite.erl \
     couch_httpd_stats_handlers.erl \
@@ -114,6 +115,7 @@ compiled_files = \
     couch_httpd_view.beam \
     couch_httpd_misc_handlers.beam \
     couch_httpd_rewrite.beam \
+	couch_httpd_multiview.beam \
     couch_httpd_stats_handlers.beam \
     couch_httpd_vhost.beam \
     couch_key_tree.beam \
